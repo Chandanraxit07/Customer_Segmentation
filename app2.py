@@ -57,7 +57,7 @@ image_base64 = get_base64_image("img3.jpg")
 set_background(image_base64)
 
 # Load the dataset
-df = pd.read_csv(r'C:\Users\USER\A VS CODE\Customer_Segmentation_project\Mall_Customers.csv')
+df = pd.read_csv('Mall_Customers.csv')
 data = df.iloc[:, [3, 4]].values  # Select relevant features
 
 # Function to predict cluster
