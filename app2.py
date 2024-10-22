@@ -113,4 +113,4 @@ if st.button("Predict Cluster"):
     
 # Footer
 st.markdown("---")
-st.write("Created with ❤️ by Santosh")
+st.write("Created with ❤️ by CR")
